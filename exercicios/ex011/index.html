@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML 5</title>
+</head>
+
+<body>
+    <h1>Imagens dinamicas</h1>
+    <picture>
+        <!--Carrega a imagem pequena-->
+        <source media="(max-width: 750px)" srcset="imagens/img_pequeno.png" type="image/png">
+
+        <!--Carrega a imagem media-->
+        <source media="(max-width: 1050px)" srcset="imagens/img_medio.png" type="image/png">
+
+        <!--Carrega a imagem base-->
+        <img src="imagens/img_grande.png" alt="imagem de tamanho flexivel">
+    </picture>
+</body>
+
+</html>

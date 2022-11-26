@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclasses</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        div {
+            display: inline-block;
+            background-color: rgb(185, 88, 88);
+            width: 150px;
+            height: 150px;
+            border: 2px solid rgb(38, 0, 128);
+            text-align: center;
+        }
+
+        div:hover {
+            background-color: rgb(149, 211, 190);
+        }
+
+        .d1:hover {
+            background-color: rgb(177, 108, 241);
+        }
+
+        .teste > p {
+            display: none;
+        }
+
+        .teste:hover > p {
+            display: block;
+            height: 30px;
+            color: white;
+        }
+
+        main {
+            background-color: black;
+            color: white;
+            width: 150px;
+            text-align: center;
+            margin: auto;
+        }
+
+        main:hover {
+            color: aquamarine;
+        }
+
+        button:hover {
+            background-color: rgb(149, 211, 190);
+        }
+
+        .botoes {
+            width: 100%;
+            height: auto;
+            border: none;
+            text-align: right;
+        }
+
+        .botoes > p {
+            width: 300px;
+            text-align: justify;
+        }
+
+        div > p {
+            padding-top: 30%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="d1"><p>01</p></div>
+    <div class="d2"><p>02</p></div>
+    <div class="d3"><p>03</p></div>
+
+    <main class="teste">
+        <h1>Testando</h1>
+        <p>Achou :3</p>
+    </main>
+
+    <footer class="botoes">
+        <button class="botao01">Passe o mouse aqui</button>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro autem officia ad nam, labore nobis aspernatur voluptatum cumque nostrum modi, culpa veritatis optio consectetur perferendis voluptatem error nesciunt dolorum cum?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam enim nobis eligendi modi eum! Quod, itaque enim! Eveniet odit at facere perferendis, totam reiciendis modi sequi error doloremque, architecto iusto.</p>
+    </footer>
+</body>
+</html>

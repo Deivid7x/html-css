@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+/*
+    id    = HTML / # = CSS
+    class = HTML / . = CSS
+*/
+
+body {
+    background-color: aquamarine;
+    text-align: justify;
+}
+
+h1 {
+    color: blue;
+}
+
+h1#principal {
+    color: brown;
+    text-align: center;
+}
+
+.personalizando {
+    color: crimson;
+}
