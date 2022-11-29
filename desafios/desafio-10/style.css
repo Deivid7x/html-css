@@ -75,7 +75,7 @@ main {
     max-width: 800px;
     background-color: azure;
     margin: auto;
-    height: 2500px;
+    max-height: 2500px;
     padding: 15px; 
 }
 
